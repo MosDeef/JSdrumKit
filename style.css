@@ -7,16 +7,20 @@ html {
 body,html {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Share Tech Mono', monospace;
 }
 
 .keys {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 20px;
+  gap: 5px;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  grid-auto-rows: 20rem;
+  align-content: center;
 }
 
 .key {
@@ -31,6 +35,7 @@ body,html {
   color: white;
   background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem black;
+  font-family: 'Share Tech Mono', monospace;
 }
 
 .playing {
@@ -42,6 +47,7 @@ body,html {
 kbd {
   display: block;
   font-size: 4rem;
+  font-family: 'Share Tech Mono', monospace;
 }
 
 .sound {
